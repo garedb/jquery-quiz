@@ -1,10 +1,52 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
 h1 {
-  color: chartreuse;
+  color: black;
   text-align: center;
+}
+.gameboard {
+  background-color: black;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75%;
+  width: 50%;
+  text-align: center;
+  
+}
+#display-box {
+  background-color: white;;
+  height: 100px;
+  width: auto;
+  border: solid gray;
+  padding: 20px;
+}
+.prompt {
+  background-color: lightgray;
+  height: 100px;
+  width: auto;
+  padding: 20px;
+  color: navy;
+  text-align: center;
+}
+.answerBtn {
+  background-color: gray;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+}
+.answers {
+  text-align: center;  
+}
+#start {
+  padding: 20px 40px;
+  background-color: yellow;
+  color: gray;
+}
+#next{
+  padding: 20px 40px;
+  background-color: blue;
+  color: white;
 }
