@@ -64,6 +64,8 @@ $(nextBtn).click(function(){
     console.log('score: ' + score)
     if (questionNumber == 4) {
         display.text('Total Score: ' + score)
+        questionBox.text('')
+        $('.answers').text('')
         return
     } 
     else {
